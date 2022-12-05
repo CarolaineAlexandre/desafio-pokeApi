@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!--cabeçalho-->
+<header class="cabecalho">
+    <img class="logo" src="img/300-3009374_pokemon-go-clipart-pokeball-png-download.png" alt="logo">
+    <h1 class="principal">PokeApi</h1>
+</header>
+<hr>
+
+<body>
+    <p>Esta página foi criada com PokeApi, para testá-la insira o nome ou número do pokemon</p>
+    <div class="corpo">
+        <input class="tela" type="text" placeholder="Digite um número ou nome" id="pokemon">
+        <button class="btn" onclick="buscarpokemon()">Buscar</button>
+        <br>
+    </div>
+    <div class="nome" id='nome'></div>
+    <img class="result" src="" alt="" id="foto">
+
+</body>
+<script src="js/script.js"></script>
+
+
+</html>
